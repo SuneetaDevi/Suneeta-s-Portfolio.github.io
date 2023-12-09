@@ -541,11 +541,13 @@ section .container {
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
+  /* height: 500px; */
 }
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
+  height: 500px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
